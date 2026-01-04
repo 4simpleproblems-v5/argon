@@ -1692,14 +1692,12 @@ var o=fe(),u=re(o);
 {
 var f=c=>{
 var d=cl();
-H(()=>ue(d,g(r)?"color:var(--accent-color);
-":"")),T("click",d,function(...v){
+H(()=>ue(d,g(r)?"color:var(--accent-color);":"")),T("click",d,function(...v){
 (i().song?.url?s:null)?.apply(this,v)}
 ),w(c,d)}
 ,p=c=>{
 var d=vl();
-H(()=>ue(d,g(r)?"color:var(--accent-color);
-":"")),T("click",d,function(...v){
+H(()=>ue(d,g(r)?"color:var(--accent-color);":"")),T("click",d,function(...v){
 (i().song?.url?s:null)?.apply(this,v)}
 ),w(c,d)}
 ;
@@ -1799,10 +1797,7 @@ let n=J(t,"item",8);
 j();
 var l=ml();
 T("click",l,()=>gt("edit-song",n())),w(e,l),q()}
-var yl=x('<main role="none" class="svelte-1uisg1v"><div class="left svelte-1uisg1v" role="none"><!></div> <div class="holder svelte-1uisg1v"><div class="top svelte-1uisg1v"><div style="display: flex;
- width:100%;
- height:100%;
-" class="svelte-1uisg1v"><div role="none" class="playpause svelte-1uisg1v"><!></div> <div class="svelte-1uisg1v"><p class="svelte-1uisg1v"> </p> <sub class="svelte-1uisg1v"> </sub></div> <div class="like svelte-1uisg1v"><!> <!></div></div></div></div> <sub class="date svelte-1uisg1v"> </sub></main>');
+var yl=x('<main role="none" class="svelte-1uisg1v"><div class="left svelte-1uisg1v" role="none"><!></div> <div class="holder svelte-1uisg1v"><div class="top svelte-1uisg1v"><div style="display: flex; width:100%; height:100%;" class="svelte-1uisg1v"><div role="none" class="playpause svelte-1uisg1v"><!></div> <div class="svelte-1uisg1v"><p class="svelte-1uisg1v"> </p> <sub class="svelte-1uisg1v"> </sub></div> <div class="like svelte-1uisg1v"><!> <!></div></div></div></div> <sub class="date svelte-1uisg1v"> </sub></main>');
 function bl(e,t){
 D(t,!1);
 let n=J(t,"result",8);
@@ -1852,8 +1847,7 @@ var o=wl();
 H(()=>Qe(o,1,ha(r()=="forward"?"fa-solid fa-square-chevron-right":"fa-solid fa-square-chevron-left"),"svelte-8b6mhs")),T("click",o,function(...u){
 (r()=="forward"?i:s)?.apply(this,u)}
 ),w(e,o),q(),l()}
-var $l=x('<div class="bottom svelte-11nkdh"><p> </p> <div style="padding-top:5px;
-"><!> <!></div></div>'),kl=x('<div class="body-content"><!> <!></div>');
+var $l=x('<div class="bottom svelte-11nkdh"><p> </p> <div style="padding-top:5px;"><!> <!></div></div>'),kl=x('<div class="body-content"><!> <!></div>');
 function El(e,t){
 D(t,!1);
 const[n,l]=G(),a=()=>Y(oe,"$search",n);
@@ -1896,10 +1890,7 @@ W(o,f=>{
 a().loading||f(u)}
 )}
 w(e,r),q(),l()}
-var Sl=x('<div style="flex-grow:1;
- display:flex;
- justify-content:flex-end;
-"><i role="none" class="fa-solid fa-trash-can svelte-1whnp7a"></i></div>'),xl=x('<div class="holder svelte-1whnp7a" role="none"><div class="img-holder svelte-1whnp7a" role="none"><!></div> <div class="title svelte-1whnp7a"><p> </p> <sub> </sub></div> <!></div>');
+var Sl=x('<div style="flex-grow:1; display:flex; justify-content:flex-end;"><i role="none" class="fa-solid fa-trash-can svelte-1whnp7a"></i></div>'),xl=x('<div class="holder svelte-1whnp7a" role="none"><div class="img-holder svelte-1whnp7a" role="none"><!></div> <div class="title svelte-1whnp7a"><p> </p> <sub> </sub></div> <!></div>');
 function xa(e,t){
 D(t,!1);
 let n=J(t,"item",8),l=J(t,"addToPlaylist",8),a=n().songs[n().songs.length-1];
@@ -1990,11 +1981,7 @@ W(u,c=>{
 a(),z(r()),S(()=>a().playlist_data!=null&&a()?.playlist_data[0]==r()&&a().playing)?c(f):c(p,!1)}
 )}
 w(e,o),q(),l()}
-var Ol=x('<div class="body-content svelte-xuryc1"><div class="holder svelte-xuryc1"><div class="top svelte-xuryc1"><div class="img-holder svelte-xuryc1"><!></div> <div class="titles svelte-xuryc1"><div style="display: flex;
- height:100%;
- justify-content: space-between;
- flex-direction:column;
-" class="svelte-xuryc1"><input class="svelte-xuryc1"/> <sub><b>You</b> </sub></div></div> <!></div> <hr/> <!></div></div>');
+var Ol=x('<div class="body-content svelte-xuryc1"><div class="holder svelte-xuryc1"><div class="top svelte-xuryc1"><div class="img-holder svelte-xuryc1"><!></div> <div class="titles svelte-xuryc1"><div style="display: flex; height:100%; justify-content: space-between; flex-direction:column;" class="svelte-xuryc1"><input class="svelte-xuryc1"/> <sub><b>You</b> </sub></div></div> <!></div> <hr/> <!></div></div>');
 function Rl(e,t){
 D(t,!1);
 const[n,l]=G(),a=()=>Y(je,"$page",n),r=()=>Y(B,"$globals",n);
@@ -2151,9 +2138,7 @@ W(r,o=>{
 l()=="forward"?o(i):o(s,!1)}
 )}
 w(e,a),q()}
-var Yl=x('<button aria-label="Repeat"><i style="color: var(--accent-color);
-" class="fa-solid fa-fw fa-repeat tooltip svelte-qe42dk" data-title="Loop On"></i></button>'),Vl=x('<button aria-label="Repeat"><i style="color: var(--accent-color);
-" class="fa-solid fa-fw fa-repeat-1 tooltip svelte-qe42dk" data-title="Loop 1"></i></button>'),Gl=x('<button aria-label="Repeat"><i class="fa-solid fa-fw fa-repeat tooltip svelte-qe42dk" data-title="Loop Off"></i></button>'),Kl=x('<div class="svelte-qe42dk"><!></div>');
+var Yl=x('<button aria-label="Repeat"><i style="color: var(--accent-color);" class="fa-solid fa-fw fa-repeat tooltip svelte-qe42dk" data-title="Loop On"></i></button>'),Vl=x('<button aria-label="Repeat"><i style="color: var(--accent-color);" class="fa-solid fa-fw fa-repeat-1 tooltip svelte-qe42dk" data-title="Loop 1"></i></button>'),Gl=x('<button aria-label="Repeat"><i class="fa-solid fa-fw fa-repeat tooltip svelte-qe42dk" data-title="Loop Off"></i></button>'),Kl=x('<div class="svelte-qe42dk"><!></div>');
 function Jl(e,t){
 D(t,!1);
 const[n,l]=G(),a=()=>Y(R,"$song",n);
@@ -2188,8 +2173,7 @@ W(i,u=>{
 a().repeat==2?u(s):u(o,!1)}
 )}
 w(e,r),q(),l()}
-var Xl=x('<main class="svelte-1jhpv6y"><button aria-label="Download"><i style="font-size: var(--icon-small);
-" class="fa-solid fa-arrow-down-to-line tooltip" data-title="Download"></i></button></main>');
+var Xl=x('<main class="svelte-1jhpv6y"><button aria-label="Download"><i style="font-size: var(--icon-small);" class="fa-solid fa-arrow-down-to-line tooltip" data-title="Download"></i></button></main>');
 function Zl(e,t){
 D(t,!1);
 const[n,l]=G(),a=()=>Y(R,"$song",n);
@@ -2275,12 +2259,7 @@ Z(m,L),ue(P,`width: ${
 g(i),a(),S(()=>g(i)/a().duration*100)??""}
 %`),Z(N,V)}
 ,[()=>(g(i),S(()=>v(g(i)))),()=>(a(),S(()=>v(a().duration)))]),T("mousedown",h,f),w(e,h),q(),l()}
-var ni=x('<div class="holder svelte-epjxzk"><div style="height: 100%;
- aspect-ratio:1;
- display:flex;
-justify-content:center;
-align-items:center;
-"><img class="img svelte-epjxzk" role="none"/></div> <div class="card-names svelte-epjxzk"><p class="card-title svelte-epjxzk"> </p> <sub class="svelte-epjxzk"> </sub></div> <div class="like svelte-epjxzk"><!></div></div>');
+var ni=x('<div class="holder svelte-epjxzk"><div style="height: 100%; aspect-ratio:1; display:flex;justify-content:center;align-items:center;"><img class="img svelte-epjxzk" role="none"/></div> <div class="card-names svelte-epjxzk"><p class="card-title svelte-epjxzk"> </p> <sub class="svelte-epjxzk"> </sub></div> <div class="like svelte-epjxzk"><!></div></div>');
 function ai(e,t){
 D(t,!1);
 const[n,l]=G(),a=()=>Y(R,"$song",n);
@@ -2349,8 +2328,7 @@ a().img.big??""}
 );
 `),_e(s,"src",a().img.big),_e(s,"alt",a().title)}
 ),w(e,r),q(),l()}
-var oi=x('<button aria-label="Close Miniplayer"><i class="fa-solid fa-window-maximize tooltip svelte-1g66qup" data-title="Close Miniplayer" style="color: var(--accent-color);
-"></i></button>'),ui=x('<button aria-label="Open Miniplayer"><i class="fa-solid fa-window-maximize tooltip svelte-1g66qup" data-title="Open Miniplayer"></i></button>'),fi=x('<div class="svelte-1g66qup"><!></div>');
+var oi=x('<button aria-label="Close Miniplayer"><i class="fa-solid fa-window-maximize tooltip svelte-1g66qup" data-title="Close Miniplayer" style="color: var(--accent-color);"></i></button>'),ui=x('<button aria-label="Open Miniplayer"><i class="fa-solid fa-window-maximize tooltip svelte-1g66qup" data-title="Open Miniplayer"></i></button>'),fi=x('<div class="svelte-1g66qup"><!></div>');
 function ci(e,t){
 D(t,!1);
 const[n,l]=G(),a=()=>Y(B,"$globals",n);
@@ -2397,8 +2375,7 @@ W(u,c=>{
 a().pip_window?c(f):c(p,!1)}
 )}
 w(e,o),q(),l()}
-var vi=x('<main class="svelte-k1ku4p"><div class="left svelte-k1ku4p"><!></div> <div class="middle svelte-k1ku4p"><div class="mid-holder svelte-k1ku4p"><div class="top svelte-k1ku4p"><!></div> <div class="bottom svelte-k1ku4p"><!></div></div></div> <div class="right svelte-k1ku4p"><!> <!></div> <audio style="display: none;
-" preload="metadata"></audio></main>');
+var vi=x('<main class="svelte-k1ku4p"><div class="left svelte-k1ku4p"><!></div> <div class="middle svelte-k1ku4p"><div class="mid-holder svelte-k1ku4p"><div class="top svelte-k1ku4p"><!></div> <div class="bottom svelte-k1ku4p"><!></div></div></div> <div class="right svelte-k1ku4p"><!> <!></div> <audio style="display: none;" preload="metadata"></audio></main>');
 function di(e,t){
 D(t,!1);
 const[n,l]=G(),a=()=>Y(R,"$song",n);
@@ -2489,12 +2466,7 @@ var l=_i(),a=E(_(l),2),r=E(a,2);
 T("change",a,function(...i){
 A(n,this.value)?.apply(this,i)}
 ),T("click",r,()=>pi(g(n))),w(e,l),q()}
-var hi=x('<div class="song-bottom svelte-i0lyco"><!> <!></div>'),mi=x('<div class="song-title svelte-i0lyco"><p> <span style="color: var(--subtext-color);
-"> </span></p></div> <div style="overflow: hidden;
- width:100%;
-height:100%;
-border-radius:5px;
-"><!></div> <!>',1);
+var hi=x('<div class="song-bottom svelte-i0lyco"><!> <!></div>'),mi=x('<div class="song-title svelte-i0lyco"><p> <span style="color: var(--subtext-color);"> </span></p></div> <div style="overflow: hidden; width:100%;height:100%;border-radius:5px;"><!></div> <!>',1);
 function yi(e,t){
 D(t,!1);
 let n=J(t,"data",8);
@@ -2622,8 +2594,7 @@ w(c,d)}
 W(u,c=>{
 a(),S(()=>a().modal.display=="song-popup")?c(f):c(p,!1)}
 )}
-H(()=>ue(s,g(r)?"":"display:none;
-")),T("click",o,Gt(function(c){
+H(()=>ue(s,g(r)?"":"display:none;")),T("click",o,Gt(function(c){
 ba.call(this,t,c)}
 )),T("click",s,()=>{
 tt(B,S(a).modal.display=!1,S(a))}

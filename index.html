@@ -1,43 +1,55 @@
-<!--
-
-hi
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../fa-all-7.css">
-  <link rel="stylesheet" href="../fa-ss-7.css">
-
-  <title>Argon</title>
-  <script type="module" crossorigin src="../assets/index-cUyeXh89.js"></script>
-  <link rel="stylesheet" crossorigin href="../assets/index-BwX92tvL.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./fa-all-7.css">
+    <link rel="stylesheet" href="./fa-ss-7.css">
+    <title>Argon</title>
+    <script type="module" crossorigin src="./assets/index-cUyeXh89.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BwX92tvL.css">
+    <style>
+        /* Critical CSS for preload - kept internal for speed */
+        :root {
+            --dark-color: #121212;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark-color);
+        }
+        #preload {
+            background-color: var(--dark-color);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: sans-serif;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+        }
+    </style>
 </head>
-
 <body>
-  <div id="preload">
-    Argon is loading...
-  </div>
-  <div id="app"></div>
-  <div id="tooltip"></div>
+    <div id="preload">
+        Argon is loading...
+    </div>
+    <div id="app"></div>
+    <div id="tooltip"></div>
+    <script defer>
+        window.addEventListener('DOMContentLoaded', () => {
+            const preload = document.getElementById('preload');
+            if (preload) {
+                preload.style.opacity = '0';
+                preload.style.transition = 'opacity 0.5s ease';
+                setTimeout(() => preload.remove(), 500);
+            }
+        });
+    </script>
 </body>
-<script defer>
-  window.addEventListener('DOMContentLoaded',()=>{
-    document.getElementById('preload').remove();
-  })
-</script>
-<style>
-  #preload {
-    background-color: var(--dark-color);
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-</style>
 </html>
